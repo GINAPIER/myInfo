@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    background: #445d74;
+}
+.navlink, .navbar{
+    color: #f4f4f4; cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em;
+}
+.nav-link:hover{
+    background: #f4f4f4; color:#445d74;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background: #fff;
+}
+
+.page-header{
+    color: blueviolet;
+    font-weight: bolder;
+}
+
+
+   
+
+
+@media screen and (max-width:980px){
+    .background{
+        background-image: url(../images_mediaqueries/home_large.jpg);
+    }
+}
+@media screen and (max-width:768px){
+    .background{
+        background-image: url(../images_mediaqueries/home_medium.jpg);
+    }
+}
+@media screen and(max-width:640px){
+    width: 640px ;
+}
+    
+
+
+.p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: darkslategray;
+
+}
+
+
+#image-me{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 210px;
+    height: 210px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+#image-me:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      }
+    
+    
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+#Drawings{
+    height: 250px;
+    width: 550px;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+}
+
+#Renderings{
+    height: 180px;
+    width: 550px;
+    margin-bottom: 25px;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+}
+
+#contact-form{
+    margin: 4em 0;
+    position: relative;
+    margin-left:30em ;
+}
+
+@media screen and (max-width:640px){
+    body{
+        background-color: dimgray;
+    }
+
+.container{
+     /* Box-model */
+     width: 100%;
+     padding: 20px;
+   }
+
+   @media screen and (max-width:768px){
+    body{
+        background-color: dimgray;
+    }
+
+.container{
+     /* Box-model */
+     width: 100%;
+     padding: 20px;
+   }
+
+   @media screen and (max-width:980px){
+    body{
+        background-color: dimgray;
+    }
+
+.container{
+     /* Box-model */
+     width: 100%;
+     padding: 20px;
+   }
