@@ -30,19 +30,24 @@
 }
 
 /* index page*/   
-.p{
+.paragraph{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
-    color: darkslategray;
+    font-size: medium;
+    color: black;
+    height: 450px;
+    width: 550px;
+    background-color:lavender;
+    padding: 30px;
+    border: 5px solid plum;
+    margin: 5px;
 }
 
-
 #image-me{
-    border: 1px solid #ddd;
+    border: 3px solid plum;
     border-radius: 4px;
     padding: 5px;
-    width: 210px;
-    height: 210px;
+    width: 216px;
+    height: 216px;
     margin-bottom: 25px;
     float: left;
 }
@@ -57,61 +62,89 @@
     position: relative;
 }
 
+
 .footer h3 {
     font-size: 20px;
 }
 
 /*portfolio page*/
 #page-header{
-    margin-left:25em ;
+    margin-left:40em ;
     position: relative;
     width: 100%;
     padding: 20px;    
 }
+#box-size{
+    height: 1150px;
+    width: 800px;
+    background-color: lavender;
+    padding: 50px;
+    position: absolute;
+    margin-top: 110px;
+    border-top: 20px;
+    margin-left: 300px;
+    border-left: 60px;
+}
 #Drawings{
-    margin-left:15em ;
+    margin-left:01em ;
     position: relative;
     width: 100%;
     padding: 20px;  
 }
 
 #Drawings-img{
-    height: 250px;
-    width: 550px;
+    height: 400px;
+    width: 800px;
     margin-bottom: 25px;
     position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkslategrey;
+    background-color:  darkslategrey;
+    padding: 30px;
+    border: 5px solid plum;
+    margin-left: auto;
+
 }
 
 #Renderings{
-    margin-left:15em ;
+    margin-left:01em ;
     position: relative;
     width: 100%;
     padding: 20px;    
 }
 
 #Renderings-img{
-    height: 180px;
-    width: 550px;
+    height: 350px;
+    width: 800px;
     margin-bottom: 25px;
     position: relative;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkslategrey;
+    background-color:  darkslategrey;
+    padding: 30px;
+    border: 5px solid plum;
+    overflow: auto;
 }
 /*contact page*/
+
+#box-cont {
+    color: black;
+    padding: 30px;
+    margin-left: 40%;
+}
 #contact-form{
-    margin: 4em 0;
+    margin-top: 20em 0;
     position:relative;
-    margin-left:40em ;
+    margin-left:40% ;
+    color: black;
 }
 #box-info{
-    margin-left:20em ;
+    background-color:gray;
+    width: 600px;
+    height: 500px;
+    padding: 30px;
+    border: 5px solid plum;
+    margin-left:40%;
     position: relative;
-    width: 100%;
-    padding: 20px;
 }
-
 
 @media screen and (max-width:640px){
     body{
