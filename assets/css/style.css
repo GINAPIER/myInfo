@@ -74,7 +74,8 @@
     width: 100%;
     padding: 20px;    
 }
-#box-size{
+
+/* #box-size{
     height: 1150px;
     width: 800px;
     background-color: lavender;
@@ -84,45 +85,71 @@
     border-top: 20px;
     margin-left: 300px;
     border-left: 60px;
-}
-#Drawings{
+} */
+
+#Project1{
     margin-left:01em ;
     position: relative;
     width: 100%;
     padding: 20px;  
-}
+    margin-top:30px;
+    text-align: center;
+} 
 
-#Drawings-img{
-    height: 400px;
-    width: 800px;
-    margin-bottom: 25px;
+#Superhero{
+    height: 70%;
+    width: 60%;
+    padding-top:40px ;
+    margin-top: 0px;
     position: relative;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:  darkslategrey;
-    padding: 30px;
-    border: 5px solid plum;
     margin-left: auto;
-
+    float: inherit;
 }
 
-#Renderings{
+ #Homework{
     margin-left:01em ;
     position: relative;
     width: 100%;
-    padding: 20px;    
+    padding: 40px; 
+    margin-top:60px; 
+    text-align: center; 
+} 
+
+ #Scheduler{
+    height:70%;
+    width: 60%;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left:auto;
+    float: inherit;
 }
 
-#Renderings-img{
-    height: 350px;
-    width: 800px;
-    margin-bottom: 25px;
-    position: relative;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:  darkslategrey;
-    padding: 30px;
-    border: 5px solid plum;
-    overflow: auto;
+h2{
+  text-align: center;  
 }
+
+#contact{
+    margin-top: 0;
+    position:relative;
+    margin-left:40% ;
+    color: black;
+    font-size:medium ;
+    float: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.infbox-size{
+     height: 350px;
+    width: 450px; 
+    background-color: lavender;
+    margin-left:0 ;
+    float: inherit; 
+} 
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+   
 /*contact page*/
 
 #box-cont {
