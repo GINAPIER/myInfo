@@ -75,17 +75,6 @@
     padding: 20px;    
 }
 
-/* #box-size{
-    height: 1150px;
-    width: 800px;
-    background-color: lavender;
-    padding: 50px;
-    position: absolute;
-    margin-top: 110px;
-    border-top: 20px;
-    margin-left: 300px;
-    border-left: 60px;
-} */
 
 #Project1{
     margin-left:01em ;
@@ -141,7 +130,7 @@ h2{
 .infbox-size{
      height: 350px;
     width: 450px; 
-    background-color: lavender;
+    background-color: transparent;
     margin-left:0 ;
     float: inherit; 
 } 
